@@ -1,0 +1,614 @@
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -303px;
+   float:left
+}
+div#container
+{
+   width: 872px;
+   height: 606px;
+   margin: 0 auto;
+   position: relative;
+   clear: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('images/cooliris_bg.jpg');
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   color: #000000;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #F2F2F2;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #FFFFFF;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: none;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#FlexGrid1
+{
+   display: grid;
+   background-clip: padding-box;
+   background-image: linear-gradient(135deg, rgba(228,228,228,0.08) 0%, rgba(126,133,150,0.08) 14%, rgba(228,228,228,0.04) 52%, rgba(126,133,151,0.08) 68%, rgba(255,255,255,0.00) 100%);
+   border: 0px solid rgba(204,204,204,0.00);
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 0px;
+   grid-template-columns: 630px 1px 240px;
+   grid-template-rows: 80px 1px 20px 1px 59px 1px 20px 1px 279px 1px 30px 1px 40px 40px 1px 30px 1px;
+   grid-template-areas:
+      "header header header"
+      "espacio1 espaciocentro espaciosidebar"
+      "navmenu espaciocentro infocanal"
+      "espacio2 espaciocentro infocanal"
+      "screentv espaciocentro infocanal"
+      "screentv espaciocentro infocanal"
+      "screentv espaciocentro infocanal"
+      "screentv espaciocentro separador5"
+      "screentv espaciocentro section1"
+      "section2 espaciocentro section1"
+      "screencontrol espaciocentro section1"
+      "section4 espaciocentro section1"
+      "banerads espaciocentro section1"
+      "banerads espaciocentro section1"
+      "espaciofoot espaciocentro espaciofoot2"
+      "section6 section6 section6"
+      "section3 section3 section3";
+}
+#FlexGrid1 .header
+{
+   display: flex;
+   grid-area: header;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('header365_4xhdpi.svg');
+   background-repeat: no-repeat;
+   background-position: center top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .espacio1
+{
+   display: flex;
+   grid-area: espacio1;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .espaciocentro
+{
+   display: flex;
+   grid-area: espaciocentro;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .espaciosidebar
+{
+   display: flex;
+   grid-area: espaciosidebar;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .navmenu
+{
+   display: flex;
+   grid-area: navmenu;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('MAINMENUxhdpi.svg');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .infocanal
+{
+   display: flex;
+   grid-area: infocanal;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('sideBar_1_2xhdpi.svg');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .espacio2
+{
+   display: flex;
+   grid-area: espacio2;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .screentv
+{
+   display: flex;
+   grid-area: screentv;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('SCREENTVxhdpi.svg');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .separador5
+{
+   display: flex;
+   grid-area: separador5;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .section1
+{
+   display: flex;
+   grid-area: section1;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('sidebar3xhdpi.svg');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .section2
+{
+   display: flex;
+   grid-area: section2;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .screencontrol
+{
+   display: flex;
+   grid-area: screencontrol;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('screencontrolxhdpi.svg');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .section4
+{
+   display: flex;
+   grid-area: section4;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .banerads
+{
+   display: flex;
+   grid-area: banerads;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('bannerfoot1xhdpi.svg');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .espaciofoot
+{
+   display: flex;
+   grid-area: espaciofoot;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .espaciofoot2
+{
+   display: flex;
+   grid-area: espaciofoot2;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .section6
+{
+   display: flex;
+   grid-area: section6;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('footer1xhdpi.svg');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .section3
+{
+   display: flex;
+   grid-area: section3;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#InlineFrameBannerAd
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 1px 1px 1px 1px;
+   -webkit-animation: animate-fade-in 2000ms linear 0ms 1 normal both;
+   animation: animate-fade-in 2000ms linear 0ms 1 normal both;
+}
+#InlineFrameBannerAd
+{
+   display: block;
+   float: left;
+   width: calc(100% - 2px);
+   height: 78px;
+   vertical-align: top;
+}
+#InlineFrameCon
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 1px 1px 1px 1px;
+}
+#InlineFrameCon
+{
+   display: block;
+   float: left;
+   width: calc(100% - 2px);
+   height: 28px;
+   vertical-align: top;
+}
+#Breadcrumb1
+{
+   padding: 2px 15px 3px 15px;
+   list-style: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #C0C0C0;
+   border-radius: 4px;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-style: normal;
+   font-size: 0;
+   margin: 0;
+   text-align: left;
+}
+#Breadcrumb1 > li
+{
+   display: inline-block;
+   font-size: 13px;
+}
+#Breadcrumb1 a
+{
+   color: #FFFF00;
+   text-decoration: none;
+}
+#Breadcrumb1 a:hover
+{
+   color: #C0C0C0;
+   text-decoration: none;
+}
+#Breadcrumb1 > .active
+{
+   color: #00FA9A;
+}
+#Breadcrumb1 > .active a
+{
+   color: inherit;
+   pointer-events: none;
+}
+#Breadcrumb1 > li + li:before
+{
+   content: "|";
+   padding: 0 5px;
+   color: #C0C0C0;
+}
+#Breadcrumb1 li i
+{
+   font-size: 13px;
+   width: 15px;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Shape1 a img
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape1 .default
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape1 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape1 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape1 a:hover .default
+{
+   visibility: hidden;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#InlineFrameSidebar2
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 1px 1px 1px 1px;
+   -webkit-animation: animate-background 2000ms linear 0ms 1 normal both;
+   animation: animate-background 2000ms linear 0ms 1 normal both;
+}
+#InlineFrameScreen
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 1px 1px 1px 1px;
+}
