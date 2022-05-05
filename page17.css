@@ -1,0 +1,38 @@
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('images/cooliris_bg.jpg');
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   color: #000000;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #F2F2F2;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #FFFFFF;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: none;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}

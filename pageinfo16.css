@@ -1,0 +1,341 @@
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('images/cooliris_bg.jpg');
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   color: #000000;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #F2F2F2;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #FFFFFF;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: none;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#FlexGrid2
+{
+   display: grid;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 0px;
+   grid-template-columns: 3px 58px 58px 58px 29px 28px 4px;
+   grid-template-rows: 55px 22px 22px;
+   grid-template-areas:
+      "section1 logo_channel header3 header3 header3 header3 section2"
+      "section1 live_vod time2 time3 time4 time5 section2"
+      "section1 look_now viendo3 viendo3 viendo3 viendo3 section2";
+}
+#FlexGrid2 .section1
+{
+   display: flex;
+   grid-area: section1;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid2 .logo_channel
+{
+   display: flex;
+   grid-area: logo_channel;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 5px 8px 8px 7px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .header3
+{
+   display: flex;
+   grid-area: header3;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0px 10px 0px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid2 .section2
+{
+   display: flex;
+   grid-area: section2;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid2 .live_vod
+{
+   display: flex;
+   grid-area: live_vod;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 1px 0px 1px 0px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid2 .time2
+{
+   display: flex;
+   grid-area: time2;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 1px 0px 1px 0px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid2 .time3
+{
+   display: flex;
+   grid-area: time3;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 1px 0px 1px 0px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid2 .time4
+{
+   display: flex;
+   grid-area: time4;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 1px 0px 1px 0px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid2 .time5
+{
+   display: flex;
+   grid-area: time5;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 3px 0px 0px 5px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .look_now
+{
+   display: flex;
+   grid-area: look_now;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid2 .viendo3
+{
+   display: flex;
+   grid-area: viendo3;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 3px 5px 0px 10px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#wb_channel_name div
+{
+   text-align: left;
+}
+#wb_channel_name
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_live 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_live div
+{
+   text-align: center;
+}
+#wb_live
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text2 div
+{
+   text-align: right;
+}
+#wb_Text2
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+img.logochannel{ 
+      width: 40px; height: 40px;
+      position: absolute;
+      z-index: 2;
+      border-radius: 5px;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #4d4d4d;
+      border-left: 1px solid #808080;
+      border-right: 1px solid #808080;
+}
+    img.flagcountry{width: 18px; height: 16px;
+}
+  
